@@ -1,18 +1,19 @@
+%define		_realname	wood
+%define		_mozver		1.2.1
 Summary:	Wooden theme based on LittleMozilla
 Summary(pl):	Drewniany motyw bazuj±cy na LittleMozilla
 Name:		mozilla-theme-wood
-Version:	1.0
-%define		_realname	wood
-%define		_fver	%(echo %{version} | tr -d .)
+Version:	1.2
+%define	_fver	%(echo %{version} | tr -d .)
 Release:	1
 License:	GPL
 Group:		X11/Applications/Networking
-Source0:	http://downloads.us-east1.mozdev.org/themes/%{_realname}_%{_fver}.jar
-# Source0-md5:	d9ce9df3bf3757dc0cdcddf2848e884b
+Source0:	http://downloads.uk1.mozdev.org/rsync/themes/themes/%{_realname}_%{_fver}.jar
+# Source0-md5:	787b7c7b9576c0a4136f06047f68b4ee
 Source1:	%{_realname}-installed-chrome.txt
-URL:		http://themes.mozdev.org/skins/pinball.html
+URL:		http://themes.mozdev.org/themes/wood.html
 Requires(post,postun):	textutils
-Requires:	mozilla >= 1.0-7
+Requires:	mozilla >= %{_mozver}
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{_realname}-%{version}-root-%(id -u -n)
 
