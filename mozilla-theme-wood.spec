@@ -3,7 +3,6 @@ Summary(pl):	Drewniany motyw bazuj±cy na LittleMozilla
 Name:		mozilla-theme-wood
 Version:	1.3
 %define		_realname	wood
-%define		_mozver		1.2.1
 %define	_fver	%(echo %{version} | tr -d .)
 Release:	1
 License:	GPL
@@ -14,7 +13,7 @@ Source0:	http://downloads.mozdev.org/themes/themes/%{_realname}_%{_fver}.jar
 Source1:	%{_realname}-installed-chrome.txt
 URL:		http://themes.mozdev.org/themes/wood.html
 Requires(post,postun):	textutils
-Requires:	mozilla >= %{_mozver}
+Requires:	mozilla >= 2:1.2.1
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
