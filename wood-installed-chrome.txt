@@ -1,0 +1,8 @@
+skin,install,url,jar:resource:/chrome/wood.jar!/
+skin,install,url,jar:resource:/chrome/wood.jar!/chatzilla/
+skin,install,url,jar:resource:/chrome/wood.jar!/communicator/
+skin,install,url,jar:resource:/chrome/wood.jar!/editor/
+skin,install,url,jar:resource:/chrome/wood.jar!/forms/
+skin,install,url,jar:resource:/chrome/wood.jar!/global/
+skin,install,url,jar:resource:/chrome/wood.jar!/messenger/
+skin,install,url,jar:resource:/chrome/wood.jar!/navigator/
