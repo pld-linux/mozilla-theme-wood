@@ -9,7 +9,6 @@ License:	GPL
 Group:		X11/Applications/Networking
 Source0:	http://downloads.mozdev.org/themes/themes/%{_realname}_%{_fver}.jar
 # Source0-md5:	9746c376253cd81f47f2f056f7f80ab3
-# Source0-size:	424034
 Source1:	%{_realname}-installed-chrome.txt
 URL:		http://themes.mozdev.org/themes/wood.html
 Requires(post,postun):	textutils
