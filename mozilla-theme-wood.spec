@@ -1,5 +1,5 @@
 Summary:	Wooden theme based on LittleMozilla
-Summary(pl):	Drewniany temat bazuj±cy na LittleMozilla
+Summary(pl):	Drewniany motyw bazuj±cy na LittleMozilla
 Name:		mozilla-theme-wood
 Version:	1.0
 %define		_realname	wood
@@ -22,7 +22,7 @@ Theme made with care for details. All browser elements are made of
 wood. Small buttons and toolbars leave big workspace.
 
 %description -l pl
-Temat wykonany z wielkim wyczuciem i dba³o¶ci± o szczegó³y. Wszystkie
+Motyw wykonany z wielkim wyczuciem i dba³o¶ci± o szczegó³y. Wszystkie
 elementy przegl±darki s± wykonane drewna. Niewielkie przyciski i paski
 narzêdziowe pozwalaj± na maksymalne wykorzystanie przestrzeni roboczej.
 
