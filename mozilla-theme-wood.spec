@@ -1,5 +1,5 @@
-Summary:	Woodden theme based on LittleMozilla
-Summary(pl):	Drewniany temat bazuj±cy na LittleMozilla.
+Summary:	Wooden theme based on LittleMozilla
+Summary(pl):	Drewniany temat bazuj±cy na LittleMozilla
 Name:		mozilla-theme-wood
 Version:	1.0
 %define		_realname	wood
@@ -18,6 +18,8 @@ BuildRoot:	%{tmpdir}/%{_realname}-%{version}-root-%(id -u -n)
 %define		_chromedir	%{_libdir}/mozilla/chrome
 
 %description
+Theme made with care for details. All browser elements are made of
+wood. Small buttons and toolbars leave big workspace.
 
 %description -l pl
 Temat wykonany z wielkim wyczuciem i dba³o¶ci± o szczegó³y. Wszystkie
@@ -29,6 +31,7 @@ narzêdziowe pozwalaj± na maksymalne wykorzystanie przestrzeni roboczej.
 %install
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT%{_chromedir}
+
 install %{SOURCE0} $RPM_BUILD_ROOT%{_chromedir}/%{_realname}.jar
 install %{SOURCE1} $RPM_BUILD_ROOT%{_chromedir}
 
