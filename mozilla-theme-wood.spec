@@ -8,6 +8,7 @@ Release:	1
 License:	GPL
 Group:		X11/Applications/Networking
 Source0:	http://downloads.mozdev.org/themes/%{_realname}_%{_fver}.jar
+# Source0-md5:	9686335ba50c9e6769b10335dd49bb0c
 Source1:	%{_realname}-installed-chrome.txt
 URL:		http://themes.mozdev.org/skins/pinball.html
 Requires(post,postun):	textutils
