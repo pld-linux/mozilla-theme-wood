@@ -1,5 +1,5 @@
 Summary:	Wooden theme based on LittleMozilla
-Summary(pl.UTF-8):   Drewniany motyw bazujący na LittleMozilla
+Summary(pl.UTF-8):	Drewniany motyw bazujący na LittleMozilla
 Name:		mozilla-theme-wood
 Version:	1.3
 %define		_realname	wood
